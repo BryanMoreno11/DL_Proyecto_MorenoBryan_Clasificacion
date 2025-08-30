@@ -1,0 +1,6 @@
+Imagen,Clase_Real,VGG16_Pred,VGG16_Prob,VGG16_Correct,ResNet50_Pred,ResNet50_Prob,ResNet50_Correct,EfficientNetB0_Pred,EfficientNetB0_Prob,EfficientNetB0_Correct
+Muestra 1,Uninfected,Uninfected,0.178,✓,Parasitized,0.585,✗,Uninfected,0.499,✓
+Muestra 2,Uninfected,Uninfected,0.017,✓,Parasitized,0.518,✗,Uninfected,0.499,✓
+Muestra 3,Uninfected,Uninfected,0.124,✓,Parasitized,0.569,✗,Uninfected,0.499,✓
+Muestra 4,Uninfected,Parasitized,0.792,✗,Parasitized,0.561,✗,Uninfected,0.499,✓
+Muestra 5,Uninfected,Uninfected,0.146,✓,Uninfected,0.358,✓,Uninfected,0.499,✓

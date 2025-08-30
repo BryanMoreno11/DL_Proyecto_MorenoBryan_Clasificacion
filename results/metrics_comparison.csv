@@ -1,0 +1,4 @@
+Modelo,Accuracy,Precision (Macro),Recall (Macro),F1 (Macro),ROC-AUC (Macro)
+VGG16,0.8735,0.8758,0.8735,0.8733,0.9408
+ResNet50,0.5608,0.5849,0.5608,0.5272,0.6530
+EfficientNetB0,0.5000,0.2500,0.5000,0.3333,0.5000

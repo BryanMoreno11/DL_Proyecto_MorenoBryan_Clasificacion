@@ -1,0 +1,54 @@
+
+RESUMEN EJECUTIVO - CLASIFICACIÓN DE MALARIA
+=============================================
+
+Dataset: Cell Images for Detecting Malaria
+Clases: Uninfected, Parasitized
+Total de imágenes: 27558
+Imágenes de entrenamiento: 22048
+Imágenes de validación: 5510
+
+MODELOS EVALUADOS:
+------------------
+1. VGG16 + Transfer Learning
+2. ResNet50 + Transfer Learning  
+3. EfficientNetB0 + Transfer Learning
+
+MÉTRICAS PRINCIPALES:
+--------------------
+
+VGG16:
+  - Accuracy: 0.8735
+  - Precision (Macro): 0.8758
+  - Recall (Macro): 0.8735
+  - F1-Score (Macro): 0.8733
+  - ROC-AUC (Macro): 0.9408
+
+ResNet50:
+  - Accuracy: 0.5608
+  - Precision (Macro): 0.5849
+  - Recall (Macro): 0.5608
+  - F1-Score (Macro): 0.5272
+  - ROC-AUC (Macro): 0.6530
+
+EfficientNetB0:
+  - Accuracy: 0.5000
+  - Precision (Macro): 0.2500
+  - Recall (Macro): 0.5000
+  - F1-Score (Macro): 0.3333
+  - ROC-AUC (Macro): 0.5000
+
+MODELO RECOMENDADO:
+------------------
+VGG16 con F1-Score de 0.8733
+
+ARCHIVOS GENERADOS:
+------------------
+- training_history.png: Gráficos de entrenamiento
+- metrics_comparison.png: Comparación de métricas
+- confusion_matrices.png: Matrices de confusión
+- sample_predictions.png: Predicciones de ejemplo
+- metrics_comparison.csv: Tabla de métricas
+- inference_results.csv: Resultados de inferencia
+- model_*.h5: Modelos entrenados
+- training_histories.pkl: Historiales de entrenamiento
