@@ -16,7 +16,7 @@
 
 1. **Abrir el notebook**: En la carpeta notebooks se encuentra el archivo `Proyecto_Clasificacion.ipynb` que puede ser abierto en Google Colab o Jupyter Notebook
 2. **Configurar GPU**: En Google Colab, ir a `Runtime → Change runtime type → GPU`
-3. **Configurar la ruta del proyecto**: En la primera celda de la Sección 2 del notebook, define la ruta del directorio principal. La carpeta `results` debe estar ubicada dentro de esta misma ruta.
+3. **Configurar la ruta del proyecto**: En la primera celda de la Sección 2 del notebook, define la ruta del directorio principal. La carpeta `results` debe estar ubicada dentro de la carpeta `notebooks`.
 4. **Ejecutar celdas**: Ejecutar las celdas en orden secuencial
 
 ### Ejecución Rápida (Solo Evaluación)
